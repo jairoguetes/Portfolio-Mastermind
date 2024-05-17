@@ -9,7 +9,7 @@ body{
     
 }
 div{
-    font-size: 12px;
+    font-size: 10px;
 }
 h1{
     font-size: 36px;
@@ -23,6 +23,10 @@ h3{
     font-weight: 300;
     color: #999;
 }
+nav ul li{
+    padding-top: 10px;
+    margin: 5px;
+}
 nav ul{
     list-style: none;
     display: inline-block;
@@ -32,6 +36,9 @@ ul{
     list-style: none;
 }
 nav{
+    position:fixed;
+    width: 100%;
+    height: 60px;
     background-color: #222;
     border-bottom: 1px solid white;
     padding-top: 10px;
@@ -43,13 +50,14 @@ i{
 i:hover{
     color: #ffc900;
 }
+a{
+    text-decoration: none;
+}
+
 li{
     float: left;
-    margin-right: 5px;
+    margin-right: 7px;
 
-}
-p{
-    text-align: justify;
 }
 section{
     padding: 10px 100px 10px 100px;
@@ -64,19 +72,26 @@ a:-webkit-any-link{
 a:-moz-any-link{
     color: #fff;
 }
+a:hover{
+    color: #ffc900;
+}
 #redes{
     margin-top: 20px;
     
 }
 #inicio{
    background-image: url("asset/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg");
-   min-height: 280px;
-   background-size: cover;
    background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 280px;
+   padding-top: 80px;
 
 }
+#logo{
+    padding-top: 0px;
+}
 p{
-    text-align: center;
+    text-align: justify;
 }
 .hashtag{
     color: #ffc900;
