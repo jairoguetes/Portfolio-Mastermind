@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: 480 18px Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    color: #fff;
+    
+}
+div{
+    font-size: 12px;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: #999;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+
+}
+ul{
+    list-style: none;
+}
+nav{
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+i{
+    font-size: 24px;
+}
+i:hover{
+    color: #ffc900;
+}
+li{
+    float: left;
+    margin-right: 5px;
+
+}
+p{
+    text-align: justify;
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
+a:any-link{
+    color: #fff;
+
+}
+a:-webkit-any-link{
+    color: #fff;
+}
+a:-moz-any-link{
+    color: #fff;
+}
+#redes{
+    margin-top: 20px;
+    
+}
+#inicio{
+   background-image: url("asset/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg");
+   min-height: 280px;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+p{
+    text-align: center;
+}
+.hashtag{
+    color: #ffc900;
+}
+
+#experiencia{
+    background-color: white;
+    color: #000;
+}
