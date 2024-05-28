@@ -101,6 +101,8 @@ p{
 #experiencia{
     background-color: white;
     color: #000;
+    text-align: center;
+    margin-top: 20px;
 }
 /*grid*/
 #about-me{
@@ -169,4 +171,70 @@ p{
 .card .more-info button{
     float: right;
     
+}
+/*card experiencia*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-top: 10px;
+}
+.cardexp{
+    background-color:#222;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.cardexp h2{
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+.cardexp p{
+    margin-bottom: 20px;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardexp li{
+    height: 30px;
+}
+/*form*/
+#contact{
+    background-color: #ffc900;
+    margin-top: 20px;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+.itemform label{
+    font-weight: 700;
+}
+
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+input[type="submit"]{
+background-color: #222;
+color: #fff;
+padding: 10px;
+grid-column: 2/3;
+justify-self: end;
 }
